@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 732)
     (zones 0)
     (modules 15)
@@ -64,7 +64,7 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
-      (usegerberattributes false)
+      (usegerberattributes true)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (excludeedgelayer true)
@@ -82,12 +82,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -1923,6 +1923,9 @@
     )
   )
 
+  (gr_text https://github.com/cbluoss/package_breakout (at 119.38 84.455) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_line (start 49.53 26.67) (end 49.53 102.87) (layer Edge.Cuts) (width 0.05) (tstamp 61CECC45))
   (gr_line (start 143.51 26.67) (end 49.53 26.67) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 143.51 102.87) (end 143.51 26.67) (layer Edge.Cuts) (width 0.05))
