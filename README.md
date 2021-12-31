@@ -1,4 +1,4 @@
-# package_breakout
+# Chip package breakout board
 A simple breakout pcb for different chip packages
 
 Currently supported packages:
